@@ -8,4 +8,6 @@ use Illuminate\Database\Eloquent\Model;
 class Purse extends Model
 {
     use HasFactory;
+
+    protected $guarded = false;
 }
